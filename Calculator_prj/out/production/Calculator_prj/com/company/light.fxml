@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="400.0" style="-fx-background-color: #eae9e9;" styleClass="anchorpane" stylesheets="@button_light.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Light">
+   <children>
+      <GridPane prefHeight="310.0" prefWidth="400.0" style="-fx-background-color: #696969;" AnchorPane.bottomAnchor="70.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="120.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="136.0" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="107.0" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="eight" layoutX="210.0" layoutY="10.0" mnemonicParsing="false" onAction="#eight_click"  prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #1c2a39; -fx-border-color: #1c2a39;" text="8" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font></Button>
+            <Button fx:id="seven" layoutX="210.0" layoutY="10.0" mnemonicParsing="false" onAction="#seven_click"  prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #1c2a39; -fx-border-color: #1c2a39;" text="7" textFill="WHITE" GridPane.rowIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="zarb" layoutX="210.0" layoutY="10.0" mnemonicParsing="false" onAction="#zarb_click"  prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #474c5d; -fx-border-color: #474c5d;" text="X" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="nine" layoutX="210.0" layoutY="10.0" mnemonicParsing="false" onAction="#nine_click"  prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #1c2a39; -fx-border-color: #1c2a39;" text="9" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="taghsim" layoutX="210.0" layoutY="10.0" mnemonicParsing="false" onAction="#taghsim_click"  prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #474c5d; -fx-border-color: #474c5d;" text="/" textFill="WHITE" GridPane.columnIndex="3">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="darsad" layoutX="210.0" layoutY="10.0" mnemonicParsing="false" onAction="#darsad_click"  prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #474c5d; -fx-border-color: #474c5d;" text="\%" textFill="#eae9e9" GridPane.columnIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="six" layoutX="10.0" layoutY="86.0" mnemonicParsing="false" onAction="#six_click"  prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #1c2a39; -fx-border-color: #1c2a39;" text="6" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="five" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#five_click"  prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #1c2a39; -fx-border-color: #1c2a39;" text="5" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="four" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#four_click"  prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #1c2a39; -fx-border-color: #1c2a39;" text="4" textFill="WHITE" GridPane.rowIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="minus" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#minus_click"  prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #474c5d; -fx-border-color: #474c5d;" text="-" textFill="#fcfafa" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="multi" layoutX="10.0" layoutY="86.0" mnemonicParsing="false" onAction="#multi_click" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #474c5d; -fx-border-color: #474c5d;" text="+/-" textFill="WHITE" GridPane.columnIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="three" layoutX="10.0" layoutY="86.0" mnemonicParsing="false" onAction="#three_click" prefHeight="83.0" prefWidth="101.0" style="-fx-background-color: #1c2a39; -fx-border-color: #1c2a39;" text="3" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="two" layoutX="10.0" layoutY="238.0" mnemonicParsing="false" onAction="#two_click"  prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #1c2a39; -fx-border-color: #1c2a39;" text="2" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="one" layoutX="10.0" layoutY="238.0" mnemonicParsing="false" onAction="#one_click" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #1c2a39; -fx-border-color: #1c2a39;" text="1" textFill="WHITE" GridPane.rowIndex="3">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="plus" layoutX="10.0" layoutY="86.0" mnemonicParsing="false" onAction="#plus_click"  prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #474c5d; -fx-border-color: #474c5d;" text="+" textFill="#f8f8f8" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="clear" mnemonicParsing="false" onAction="#clear_click"  prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #474c5d; -fx-border-color: #474c5d;" text="Ac" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="ziro" layoutX="10.0" layoutY="199.0" mnemonicParsing="false" onAction="#one_ziro_click"  prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #1c2a39; -fx-border-color: #1c2a39;" text="0" textFill="WHITE" GridPane.rowIndex="4">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="three_ziro" layoutX="10.0" layoutY="199.0" mnemonicParsing="false" onAction="#three_zero_click" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #1c2a39; -fx-border-color: #1c2a39;" text="000" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="two_ziro" layoutX="10.0" layoutY="199.0" mnemonicParsing="false" onAction="#two_zero_click"  prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #1c2a39; -fx-border-color: #1c2a39;" text="00" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="point" contentDisplay="TOP" layoutX="10.0" layoutY="73.0" mnemonicParsing="false" onAction="#point_click"  prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #474c5d; -fx-border-color: #474c5d;" text="." textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+         </children>
+      </GridPane>
+      <TextField fx:id="input" alignment="CENTER" layoutY="33.0" prefHeight="87.0" prefWidth="400.0" style="-fx-background-color: #eae9e9;">
+         <font>
+            <Font name="Franklin Gothic Book" size="27.0" />
+         </font></TextField>
+      <Label fx:id="bala" prefHeight="34.0" prefWidth="400.0" style="-fx-background-color: #eae9e9; -fx-border-color: #696969; -fx-border-width: 0px 0px 2px 0px;" textFill="#0d0505">
+         <font>
+            <Font name="Franklin Gothic Book" size="15.0" />
+         </font></Label>
+      <Button fx:id="mosavi" layoutY="430.0" mnemonicParsing="false" onAction="#mosavli_click" prefHeight="70.0" prefWidth="400.0" style="-fx-background-color: #d37e1e;" text="=" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="430.0">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
